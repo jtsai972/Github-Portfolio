@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    transition: width ease 1s;
+}
+html {
+    background: #333 url("../images/kelly-sikkema-elz_jOsXTf4-unsplash.jpg") center / cover no-repeat;
+    display: flex;
+        align-content: center;
+        justify-content: center;
+    min-height: 100vh;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 1em auto;
+    width: 90%;
+        max-width: 1200px;
+}
+
+/* Text Styling here
+-------------------------------------------- */
+h1, h2, h3 { 
+    font-family: "Playfair Display", serif; 
+    font-weight: bold;
+}
+h1 {font-size: 2.5em}
+h2 {font-size: 2em;}
+h3 {font-size: 1.5em;}
+
+strong { font-weight: bold; }
+em { font-style: italic;}
+
+main h1 { margin-bottom: 2rem; }
+main p { line-height: 1.5em; margin: 1em auto; }
+
+/* Link styling
+-------------------------------------------- */
+a { color: #60B0BF; text-decoration: none; }
+a:hover { color: #80BF60; border-bottom: 1px solid #80BF60; }
+
+/* Basic content box styling
+-------------------------------------------- */
+header, footer {
+    background: #333;
+    color: #eee;
+    padding: 2em;
+}
+
+main {
+    background: #eee;
+    padding: 2em;
+}
+
+/* Navigation styling
+-------------------------------------------- */
+nav {
+    background: #DAC4E6;
+    overflow: auto;
+    padding: 0 1em;
+}
+nav a {
+    color: #333;
+    display: inline-block;
+    font-weight: bold;
+    padding: 1em;
+}
+
+/* Display Class Styling 
+-------------------------------------------- */
+.active { display: inline-block; }
+
+/* Section Styling
+-------------------------------------------- */
+section { display: none;}
