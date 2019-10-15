@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    transition: all ease 1s;
+    transition: all 1s ease;
 }
 html {
     background: #333 url("../images/kelly-sikkema-elz_jOsXTf4-unsplash.jpg") center / cover no-repeat;
@@ -108,3 +108,44 @@ section { display: none; width: 100%;}
         .palette .color:last-of-type {
             border-right: 1px solid black;
         }
+
+/* Portfolio Styling
+-------------------------------------------- */
+#portfolio .gallery {
+    display: flex;
+        justify-content: flex-start;
+}
+#portfolio .item {
+    display: inline-block;
+    flex: 0 1 23%;
+    margin-right: 3%;
+}
+    #portfolio .item:nth-of-type(3n) {
+        margin-right: 0;
+    }
+    #portfolio .item:hover { border-bottom: none; }
+    #portfolio .item:hover .image { opacity: 0.5; }
+
+    #portfolio .image { position: relative; }
+        #portfolio .image:after {
+            content: "";
+            display: block;
+            padding-bottom: 60%;
+        }
+        #portfolio .image span {
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+            position: absolute;
+                left: 0;
+                top: 0;
+            width: 100%;
+            vertical-align: bottom;
+        }
+    #portfolio .item p {
+        display: block;
+        font-weight: bold;
+        margin-top: 0.5em;
+        text-align: center;
+    }
