@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    transition: width ease 1s;
+    transition: all ease 1s;
 }
 html {
     background: #333 url("../images/kelly-sikkema-elz_jOsXTf4-unsplash.jpg") center / cover no-repeat;
@@ -11,7 +11,8 @@ html {
 }
 body {
     font-family: 'Raleway', sans-serif;
-    margin: 1em auto;
+    margin: auto;
+    height: auto;
     width: 90%;
         max-width: 1200px;
 }
@@ -30,6 +31,7 @@ strong { font-weight: bold; }
 em { font-style: italic;}
 
 main h1 { margin-bottom: 2rem; }
+main h2 { margin-bottom: 1.5rem;}
 main p { line-height: 1.5em; margin: 1em auto; }
 
 /* Link styling
@@ -41,14 +43,18 @@ a:hover { color: #80BF60; border-bottom: 1px solid #80BF60; }
 -------------------------------------------- */
 header, footer {
     background: #333;
+    border: none;
     color: #eee;
     padding: 2em;
 }
-
+header { border-bottom: 0.25em solid #9F60BF; }
 main {
     background: #eee;
     padding: 2em;
+    min-height: 33vh;
 }
+
+footer { border-top: 0.25em solid #9F60BF; }
 
 /* Navigation styling
 -------------------------------------------- */
@@ -63,6 +69,11 @@ nav a {
     font-weight: bold;
     padding: 1em;
 }
+nav a:hover, nav a.active {
+    background: #80BF60;
+    border: none;
+    color: #eee;
+}
 
 /* Display Class Styling 
 -------------------------------------------- */
@@ -70,4 +81,30 @@ nav a {
 
 /* Section Styling
 -------------------------------------------- */
-section { display: none;}
+section { display: none; width: 100%;}
+
+/* Palette Styling
+-------------------------------------------- */
+.palette {
+    display: flex;
+        align-content: center;
+        justify-content: space-around;
+}
+    .palette.pastel .color {
+        color: #333;
+    }
+    .palette .color {
+        border: 1px solid black;
+            border-right: none;
+        color: white;
+        display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        flex: 1 1 4em;
+        height: 4em;
+        margin: 1em auto;
+        padding: 1em;
+    }
+        .palette .color:last-of-type {
+            border-right: 1px solid black;
+        }
