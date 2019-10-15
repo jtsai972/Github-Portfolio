@@ -111,9 +111,13 @@ section { display: none; width: 100%;}
 /* Portfolio Styling
 -------------------------------------------- */
 #portfolio .gallery {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 0px 3px 0 rgba(0, 0, 0, 0.25);
     display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
+    padding: 1em;
+    padding-bottom: 0;
 }
 #portfolio .item {
     display: inline-block;
@@ -126,7 +130,10 @@ section { display: none; width: 100%;}
     #portfolio .item:hover { border-bottom: none; }
     #portfolio .item:hover .image { opacity: 0.5; }
 
-    #portfolio .image { position: relative; }
+    #portfolio .image { 
+        box-shadow: 0 0 3px 0 rgba(0,0,0,0.5);
+        position: relative; 
+    }
         #portfolio .image:after {
             content: "";
             display: block;
