@@ -5,13 +5,12 @@
 html {
     background: #333 url("../images/kelly-sikkema-elz_jOsXTf4-unsplash.jpg") center / cover no-repeat;
     display: flex;
-        align-content: center;
         justify-content: center;
     min-height: 100vh;
 }
 body {
     font-family: 'Raleway', sans-serif;
-    margin: auto;
+    margin: 2em auto;
     height: auto;
     width: 90%;
         max-width: 1200px;
@@ -70,7 +69,7 @@ nav a {
     padding: 1em;
 }
 nav a:hover, nav a.active {
-    background: #80BF60;
+    background: #9F60BF;
     border: none;
     color: #eee;
 }
