@@ -13,7 +13,7 @@ body {
     margin: 2em auto;
     height: auto;
     width: 90%;
-        max-width: 1200px;
+        max-width: 1080px;
 }
 
 /* Text Styling here
@@ -112,14 +112,15 @@ section { display: none; width: 100%;}
 -------------------------------------------- */
 #portfolio .gallery {
     display: flex;
+        flex-wrap: wrap;
         justify-content: flex-start;
 }
 #portfolio .item {
     display: inline-block;
-    flex: 0 1 23%;
-    margin-right: 3%;
+    flex: 0 1 22%;
+    margin-right: 4%;
 }
-    #portfolio .item:nth-of-type(3n) {
+    #portfolio .item:nth-of-type(4n) {
         margin-right: 0;
     }
     #portfolio .item:hover { border-bottom: none; }
