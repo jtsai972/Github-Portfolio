@@ -12,7 +12,9 @@ Setting up a basic github portfolio for me to add all the new stuff I'm doing. -
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <h3 align="center">Friend Finder</h3>
+  <img src="https://raw.githubusercontent.com/jtsai972/Github-Portfolio/master/assets/images/Portfolio-SS-2019-10-19-v02.png" width="200">
+
+  <h3 align="center">Github Portfolio</h3>
 
   <p align="center">
     Setting up a basic github portfolio for me to add all the new stuff I'm doing.
