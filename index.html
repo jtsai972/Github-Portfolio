@@ -1,262 +1,410 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <!-- Meta -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
     <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Playfair+Display|Raleway"
+      rel="stylesheet"
+    />
 
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
     <!--Title -->
     <title>Github Portfolio</title>
-</head>
-<body>
-    <header><h1>Jasmine Tsai</h1></header>
+  </head>
+
+  <body>
+    <header>
+      <h1>Jasmine Tsai</h1>
+    </header>
     <nav>
-        <a href="#landing">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
+      <a href="#landing">Home</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
     </nav>
     <main>
-        <!-- landing page -->
-        <section id="landing" class="active">
-            <h1>Welcome</h1>
-            <p>Hey there! Welcome to my github portfolio page!</p>
-            <p>Currently there isn't much to see here, but that should change in a bit!</p>
-            <p>There's a lot more I'm going to learn about things like node, react, express, handlebars and all that fun stuff.</p>
-            <p>This website is currently a single page site. For now that seems like it will be good enough. Eventually it might not be and I'll have to expand some.</p>
-        </section>
+      <!-- landing page -->
+      <section id="landing" class="active">
+        <h1>Welcome</h1>
+        <p>Hey there! Welcome to my github portfolio page!</p>
+        <p>
+          Currently there isn't much to see here, but that should change in a
+          bit!
+        </p>
+        <p>
+          There's a lot more I'm going to learn about things like node, react,
+          express, handlebars and all that fun stuff.
+        </p>
+        <p>
+          This website is currently a single page site. For now that seems like
+          it will be good enough. Eventually it might not be and I'll have to
+          expand some.
+        </p>
+      </section>
 
-        <!-- About Me -->
-        <section id="about">
-            <h1>About</h1>
-            <p>Currently this site only has some really basic functionality, and it really needs an overhaul</p>
-            <h2>Current Color Palettes</h2>
-            <h3>Base colors</h3>
-            <div class="palette">
-                <span class="color">#333</span>
-                <span class="color">#60B0BF</span>
-                <span class="color">#80BF60</span>
-                <span class="color">#9F60BF</span>
-                <span class="color" style="color: #333;">#eee</span>
+      <!-- About Me -->
+      <section id="about">
+        <h1>About</h1>
+        <p>
+          Currently this site only has some really basic functionality, and it
+          really needs an overhaul
+        </p>
+        <h2>Current Color Palettes</h2>
+        <h3>Base colors</h3>
+        <div class="palette">
+          <span class="color">#333</span>
+          <span class="color">#60B0BF</span>
+          <span class="color">#80BF60</span>
+          <span class="color">#9F60BF</span>
+          <span class="color" style="color: #333;">#eee</span>
+        </div>
+        <h3>Pastel Colors</h3>
+        <div class="palette pastel">
+          <span class="color">#C4E6DA</span>
+          <span class="color">#DAC4E6</span>
+          <span class="color">#E6DAC4</span>
+        </div>
+      </section>
+
+      <!-- Portfolio-->
+      <section id="portfolio">
+        <h1>Portfolio</h1>
+
+        <h2>Group Projects</h2>
+        <div class="gallery">
+          <!-- group project 1 -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Group-Project-1"
+            alt="Group Project 01 - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/group-project-01-travel-planner.png');"
+              ></span>
             </div>
-            <h3>Pastel Colors</h3>
-            <div class="palette pastel">
-                <span class="color">#C4E6DA</span>
-                <span class="color">#DAC4E6</span>
-                <span class="color">#E6DAC4</span>
+            <h3>Travel Planner (project 01)</h3>
+            <p>
+              <strong>Team: </strong>
+              Daniela Chavez - <a href="https://github.com/danielachav">Github</a>, 
+              Nnamdi Iroham - <a href="https://github.com/niroham">Github</a>,
+              Jasmine Tsai - <a href="https://github.com/jtsai972/">Github</a>,
+              Remington Villa - <a href="https://github.com/remingtonjosh">Github</a>
+            </p>
+          </a>
+
+          <!-- group project 2 -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Group-Project-2"
+            alt="Group Project 02 - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/group-project-02-somerecipes.png');"
+              ></span>
             </div>
-        </section>
 
-        <!-- Portfolio-->
-        <section id="portfolio">
-            <h1>Portfolio</h1>
-            <h2>Solo Projects</h2>
-            <div class="gallery" style="margin-bottom: 2rem;">
+            <h3>SomeRecipes (project 02)</h3>
+            <p>
+              <strong>Team: </strong>
+              John Do - <a href="https://github.com/Johnphtdo/">Github</a>, 
+              Kala Elam - <a href="https://github.com/speechgirl1505">Github</a>,
+              Jasmine Tsai - <a href="https://github.com/jtsai972/">Github</a>
+            </p>
+          </a>
+        </div>
 
-                <!-- Burger Sequelize -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/burger-sequelize/" 
-                    alt="Burger Sequelize - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-20-burger-sequelize.png');"></span>
-                    </div>
-                    <p>Burger Sequelize (node.js, express, heroku, mySQL, Handlebars, Sequelize)</p>
-                </a>
-
-                <!-- Burger ORM -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/burger/" 
-                    alt="Burger ORM - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-19-burger-orm.png');"></span>
-                    </div>
-                    <p>Burger ORM (node.js/express/heroku/mySQL/Handlebars)</p>
-                </a>
-
-                <!-- Friend Finder -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/Friend-Finder/" 
-                    alt="Friend Finder - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-18-friend-finder.png');"></span>
-                    </div>
-                    <p>Friend Finder (node.js/express/heroku)</p>
-                </a>
-
-                <!-- Bamazon -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/Bamazon/" 
-                    alt="Bamazon - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-17-bamazon.gif');"></span>
-                    </div>
-                    <p>Bamazon (node.js/MySQL)</p>
-                </a>
-
-                <!-- Word Guess CLI -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/Word-Guess-CLI/" 
-                    alt="Word Guess CLI - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-16-word-guess-cli.png');"></span>
-                    </div>
-                    <p>Word Guess CLI (node.js constructors)</p>
-                </a>
-
-                <!-- liri bot -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/LIRI-Bot/" 
-                    alt="LIRI bot - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-15-LIRI.png');"></span>
-                    </div>
-                    <p>LIRI bot (node.js)</p>
-                </a>
-
-                <!-- Train Scheduler -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/Firebase-Train-Scheduler" 
-                    alt="Firebase Train Scheduler - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-11-firebase-train.png');"></span>
-                    </div>
-                    <p>Train Scheduler (Firebase)</p>
-                </a>
-
-                <!-- Giphy  -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/practice-ajax-101" 
-                    alt="Giphy - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-10-giphy.png');"></span>
-                    </div>
-                    <p>Giphy Generator (Ajax/API)</p>
-                </a>
-
-                <!-- Trivia Game Advanced  -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/TriviaGame-Advanced" 
-                    alt="Trivia Game - Advanced - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-09-trivia.png');"></span>
-                    </div>
-                    <p>Trivia Game: Advanced (Timers)</p>
-                </a>
-
-                <!-- Trivia Game Basic  -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/TriviaGame-Basic" 
-                    alt="Trivia Game - Basic - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-08-trivia.png');"></span>
-                    </div>
-                    <p>Trivia Game: Basic (Timers)</p>
-                </a>
-
-                <!-- Star Wars Game  -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/Star-Wars-RPG-Game" 
-                    alt="Star Wars Game - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-07-star-wars-game.png');"></span>
-                    </div>
-                    <p>Star Wars Game (jQuery)</p>
-                </a>
-
-                <!-- Word Guess Game  -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/Word-Guess-Game" 
-                    alt="Word Guess Game - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-06-word-guess-game.png');"></span>
-                    </div>
-                    <p>Word Guess Game (javaScript)</p>
-                </a>
-
-                <!-- Psychic Game  -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/Psychic-Game" 
-                    alt="Psychic Game - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-05-psychic-game.png');"></span>
-                    </div>
-                    <p>Psychic Game (javaScript)</p>
-                </a>
-
-                <!-- Bootstrap Portfolio  -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/Bootstrap-Portfolio" 
-                    alt="Bootstrap Portfolio - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-04-bootstrap-portfolio.png');"></span>
-                    </div>
-                    <p>Bootstrap Portfolio (bootstrap)</p>
-                </a>
-
-                <!-- Responsive Portfolio  -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/Responsive-Portfolio" 
-                    alt="Responsive Portfolio - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-03-responsive-portfolio.png');"></span>
-                    </div>
-                    <p>Responsive Portfolio (media queries)</p>
-                </a>
-                
-                <!-- Basic Portfolio  -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/Basic-Portfolio" 
-                    alt="Basic Portfolio - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-02-basic-portfolio.png');"></span>
-                    </div>
-                    <p>Basic Portfolio (HTML/CSS)</p>
-                </a>
-                
-                <!-- Basic Portfolio  -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/HW-Wireframe" 
-                    alt="Wireframe - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/assignment-01-wireframe.png');"></span>
-                    </div>
-                    <p>Wireframe (HTML/CSS)</p>
-                </a>
-
-                <button class="more">See More</button>
+        <h2>Solo Projects</h2>
+        <div class="gallery" style="margin-bottom: 2rem;">
+          <!-- Burger Sequelize -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/burger-sequelize/"
+            alt="Burger Sequelize - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-20-burger-sequelize.png');"
+              ></span>
             </div>
-            
-            <h2>Group Projects</h2>
-            <div class="gallery">
-                <!-- group project -->
-                <a class="item" rel="noopener noreferrer"
-                    href="https://github.com/jtsai972/Group-Project-1" 
-                    alt="Group Project 01 - portfolio item" >
-                    <div class="image">
-                        <span style="background-image: url('./assets/images/portfolio/group-project-01-travel-planner.png');"></span>
-                    </div>
-                    <p>Travel Planner (project 01)</p>
-                </a>  
+            <p>
+              Burger Sequelize (node.js, express, heroku, mySQL, Handlebars,
+              Sequelize)
+            </p>
+          </a>
+
+          <!-- Burger ORM -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/burger/"
+            alt="Burger ORM - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-19-burger-orm.png');"
+              ></span>
             </div>
-        </section>
+            <p>Burger ORM (node.js/express/heroku/mySQL/Handlebars)</p>
+          </a>
+
+          <!-- Friend Finder -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Friend-Finder/"
+            alt="Friend Finder - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-18-friend-finder.png');"
+              ></span>
+            </div>
+            <p>Friend Finder (node.js/express/heroku)</p>
+          </a>
+
+          <!-- Bamazon -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Bamazon/"
+            alt="Bamazon - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-17-bamazon.gif');"
+              ></span>
+            </div>
+            <p>Bamazon (node.js/MySQL)</p>
+          </a>
+
+          <!-- Word Guess CLI -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Word-Guess-CLI/"
+            alt="Word Guess CLI - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-16-word-guess-cli.png');"
+              ></span>
+            </div>
+            <p>Word Guess CLI (node.js constructors)</p>
+          </a>
+
+          <!-- liri bot -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/LIRI-Bot/"
+            alt="LIRI bot - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-15-LIRI.png');"
+              ></span>
+            </div>
+            <p>LIRI bot (node.js)</p>
+          </a>
+
+          <!-- Train Scheduler -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Firebase-Train-Scheduler"
+            alt="Firebase Train Scheduler - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-11-firebase-train.png');"
+              ></span>
+            </div>
+            <p>Train Scheduler (Firebase)</p>
+          </a>
+
+          <!-- Giphy  -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/practice-ajax-101"
+            alt="Giphy - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-10-giphy.png');"
+              ></span>
+            </div>
+            <p>Giphy Generator (Ajax/API)</p>
+          </a>
+
+          <!-- Trivia Game Advanced  -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/TriviaGame-Advanced"
+            alt="Trivia Game - Advanced - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-09-trivia.png');"
+              ></span>
+            </div>
+            <p>Trivia Game: Advanced (Timers)</p>
+          </a>
+
+          <!-- Trivia Game Basic  -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/TriviaGame-Basic"
+            alt="Trivia Game - Basic - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-08-trivia.png');"
+              ></span>
+            </div>
+            <p>Trivia Game: Basic (Timers)</p>
+          </a>
+
+          <!-- Star Wars Game  -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Star-Wars-RPG-Game"
+            alt="Star Wars Game - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-07-star-wars-game.png');"
+              ></span>
+            </div>
+            <p>Star Wars Game (jQuery)</p>
+          </a>
+
+          <!-- Word Guess Game  -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Word-Guess-Game"
+            alt="Word Guess Game - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-06-word-guess-game.png');"
+              ></span>
+            </div>
+            <p>Word Guess Game (javaScript)</p>
+          </a>
+
+          <!-- Psychic Game  -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Psychic-Game"
+            alt="Psychic Game - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-05-psychic-game.png');"
+              ></span>
+            </div>
+            <p>Psychic Game (javaScript)</p>
+          </a>
+
+          <!-- Bootstrap Portfolio  -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Bootstrap-Portfolio"
+            alt="Bootstrap Portfolio - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-04-bootstrap-portfolio.png');"
+              ></span>
+            </div>
+            <p>Bootstrap Portfolio (bootstrap)</p>
+          </a>
+
+          <!-- Responsive Portfolio  -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Responsive-Portfolio"
+            alt="Responsive Portfolio - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-03-responsive-portfolio.png');"
+              ></span>
+            </div>
+            <p>Responsive Portfolio (media queries)</p>
+          </a>
+
+          <!-- Basic Portfolio  -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/Basic-Portfolio"
+            alt="Basic Portfolio - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-02-basic-portfolio.png');"
+              ></span>
+            </div>
+            <p>Basic Portfolio (HTML/CSS)</p>
+          </a>
+
+          <!-- Basic Portfolio  -->
+          <a
+            class="item"
+            rel="noopener noreferrer"
+            href="https://github.com/jtsai972/HW-Wireframe"
+            alt="Wireframe - portfolio item"
+          >
+            <div class="image">
+              <span
+                style="background-image: url('./assets/images/portfolio/assignment-01-wireframe.png');"
+              ></span>
+            </div>
+            <p>Wireframe (HTML/CSS)</p>
+          </a>
+
+          <button class="more">See More</button>
+        </div>
+      </section>
     </main>
-    <footer><p>Created by Jasmine Tsai</p></footer>
+    <footer>
+      <p>Created by Jasmine Tsai</p>
+    </footer>
 
     <!-- Scripts -->
     <script
-        src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-        crossorigin="anonymous"></script>
-    <script defer type="text/javascript" src="assets/javascript/script.js"></script>
-</body>
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      type="text/javascript"
+      src="assets/javascript/script.js"
+    ></script>
+  </body>
 </html>
