@@ -45,11 +45,13 @@ Setting up a basic github portfolio for me to add all the new stuff I'm doing. -
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-This project will be an experiment in using Node.js, Express, and Heroku. In this project I will be building a compatibility-based "FriendFinder" application -- basically a dating app. This full-stack site will take in results from your users' surveys, then compare their answers with those from other users. The app will then display the name and picture of the user with the best overall match.
+This is simply a basic github portfolio to showcase my work during my time at SMU tech bootcamp.
 
 ### Built With
  * [Othneil Drew - Best README Template](https://github.com/othneildrew/Best-README-Template)
+ * [Josh Parrett - Gallery Animation Code](https://codepen.io/JTParrett/pen/CAglw)
+ * [Material Design Icons](https://material.io/resources/icons/)
+ * [jQuery CDN (minified)](https://code.jquery.com/)
  
  
  [Back to Table of Contents](#table-of-contents)
@@ -74,6 +76,7 @@ Project Link: [https://github.com/jtsai972/Github-Portfolio](https://github.com/
 * [TA - Cody Clark](https://codyevanclark.com/)
 * [TA - Daniel Reynolds](https://github.com/kirplink)
 * [TA - Shawn Holcomb](https://github.com/shawnholcomb)
+* [Josh Parrett - Gallery Animation Code](https://codepen.io/JTParrett/pen/CAglw)
 
 [Back to Table of Contents](#table-of-contents)
 

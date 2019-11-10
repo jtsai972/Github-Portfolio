@@ -13,13 +13,12 @@ $("#portfolio .more").on("click", function () {
     animateTime = 500;
   // console.log(gallery);
 
+  gallery.toggleClass("active");
   if (gallery.hasClass("active")) {
     autoHeightAnimate(gallery, animateTime);
   } else {
     gallery.stop().animate({ height: '16em' }, animateTime);
   }
-
-  gallery.toggleClass("active");
 });
 
 /* Function to animate height: auto */
@@ -29,25 +28,6 @@ function autoHeightAnimate(element, time) {
   element.height(curHeight); // Reset to Default Height
   element.stop().animate({ height: autoHeight }, time); // Animate to Auto Height
 }
-
-// function chkPortfolio() {
-//     if($("#portfolio .gallery").attr("class") === "active") {
-//         let test = $("#portfolio .gallery");
-//         console.log(test);
-
-//         test.each(function() {
-//             var $this = $(this);
-//             var galleryHeight = $this.outerHeight();
-//             console.log(galleryHeight);
-
-//             if(galleryHeight > galleryMax) {
-//                 $this.css("max-height", galleryMax)
-//                 $this.find(".more").show();
-//             }
-//         });
-//     }
-// }
-
 
 
 /* Generating palette colors */

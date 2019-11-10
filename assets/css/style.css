@@ -91,6 +91,8 @@ section { display: none; width: 100%;}
     display: flex;
         align-content: center;
         justify-content: space-around;
+    width: 100%;
+        max-width: 48em;
 }
     .palette.pastel .color {
         color: #333;
@@ -183,25 +185,22 @@ section { display: none; width: 100%;}
         width: 100%;
     } */
     #portfolio .gallery .more {
-        background-color: transparent;
         border: none;
             border-bottom: 1px solid #ccc;
         color: #60B0BF;
+        display: flex;
+            justify-content: space-between;
         font-size: 1.25em;
         font-weight: bold;
         margin-top: -1rem;
         margin-bottom: 1em;
         padding: 0.5em 1em;
-        position: relative;
         width: 100%;
-    }
-    #portfolio .gallery .more .material-icons {
-        position: absolute;
-            right: 0;
     }
     #portfolio .gallery .more .expand-more,
     #portfolio .gallery.active .more .expand-less {
         display: inline-block;
+        vertical-align: bottom;
     }
     #portfolio .gallery .more .expand-less,
     #portfolio .gallery.active .more .expand-more {
