@@ -3,6 +3,9 @@
 <!--# Github-Portfolio
 Setting up a basic github portfolio for me to add all the new stuff I'm doing. -->
 
+<!--# Description
+Setting up a basic github portfolio for me to add all the new stuff I'm doing. -->
+
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
